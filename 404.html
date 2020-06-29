@@ -2,6 +2,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <link rel="icon" href="files/avatar.png">
     <meta charset="UTF-8">
     <meta name="description" content="Quacky is a moderation bot with lots of utility features. Quacky has custom moderation features like Voice and Text Channel Moderation to make life easier for your Moderators.">
@@ -9,14 +10,28 @@
     <meta name="keywords" content="discord bot, quacky, bot, quacky bot, quacky discord bot, discord, moderation bot discord, discord moderation bot, moderation bot">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 | Quacky Bot Website</title>
+    <style>
+      .cool_button{
+        font-size:125%;
+        position: absolute;
+      }
+    </style>
   </head>
   <body style="background-color:orange">
     <h1 style="font-family:Londrina Shadow; text-align:center; font-size:300%;">404 Page Not Found</h1>
-    <h2 style="font-family:Happy Monkey;">Uh oh... I Can't Find that Page!</h2>
+    <h2>Uh oh... I Can't Find that Page!</h2>
     <p>Maybe it has been deleted or you made a typo in the web address.
       If this page should exist please <a href="https://github.com/quacky-bot/quacky-bot.github.io/issues/new/choose">open an Issue Here!</a>
     </p>
+    <button style="left: 20px;" class="button cool_button" onclick="goBack()">Click here to go back to the last page.</button>
+    <button style="left: 380px;" class="button cool_button" onclick="index.html">Click here to go to the home page.</button>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
     <br/>
-    <a style="font-size:125%;" href="index.html">Click here if you just want to leave the page.</a>
+    <h2>Here's a little easter egg video for you :)</h2>
+    <video src="files/badboyhalo.mov" controls width="700">Welp... you can't see the video but it's BadBoyHalo saying "Invite Quacky Bot"</video>
   </body>
 </html>
