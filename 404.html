@@ -11,9 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 | Quacky Bot</title>
     <style>
-      .cool_button{
+      .button{
         font-size:125%;
         position: absolute;
+        background-color: orange;
+        color: #0400ff;
+        transition-duration: 0.4s;
+        border: 2px solid #4caf50;
+        border-radius: 8px;
       }
     </style>
   </head>
@@ -23,8 +28,8 @@
     <p>Maybe it has been deleted or you made a typo in the web address.
       If this page should exist please <a href="https://github.com/quacky-bot/quacky-bot.github.io/issues/new/choose">open an Issue Here!</a>
     </p>
-    <button style="left: 20px;" class="button cool_button" onclick="goBack()">Click here to go back to the last page.</button>
-    <button style="left: 380px;" class="button cool_button" onclick="window.location.href='index.html'">Click here to go to the home page.</button>
+    <button style="left: 20px;" class="button" onclick="goBack()">Click here to go back to the last page.</button>
+    <button style="left: 380px;" class="button" onclick="window.location.href='/index.html'">Click here to go to the home page.</button>
     <script>
     function goBack() {
       window.history.back();
