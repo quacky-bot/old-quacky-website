@@ -22,6 +22,7 @@ h2 {
   font-family: "Happy Monkey";
   color: #7289da;
 }
+
 .avatar {
   display: block;
   margin-left: auto;
@@ -32,24 +33,29 @@ h2 {
   width: 20%;
   height: 20%;
 }
+
 h1 {
-  font-family:Londrina Shadow;
-  text-align:center;
-  font-size:300%;
-  color: #00AEFF;
+  font-family: "Londrina Shadow";
+  text-align: center;
+  font-size: 300%;
+  color: #00aeff;
 }
+
 p, span {
   color: #4caf50;
 }
+
 body {
   background-color: #2c2f33;
 }
+
 h3 {
   color: #7289DA;
   font-family: "Happy Monkey";
   text-align: center;
   font-size: 150%;
 }
+
 hr {
   border-color: #4caf50;
 }
