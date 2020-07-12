@@ -15,6 +15,10 @@ h2, h3 {
   color: #4caf50;
 }
 
+h2 {
+  font-size: 145%;
+}
+
 p, li {
   color: orange;
   font-family: "Montserrat"
