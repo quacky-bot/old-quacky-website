@@ -12,7 +12,7 @@ h1 {
   transition-duration: 0.4s;
   border: 2px solid #4caf50;
   border-radius: 8px;
-  float:left;
+  float: left;
   font-family: "Happy Monkey";
   width: 33.33%;
   height: 80px;
@@ -38,8 +38,8 @@ h2, h3 {
 }
 
 .all {
-  color:aqua;
-  font-size:113%;
+  color: aqua;
+  font-size: 113%;
 }
 
 .helper {
@@ -48,17 +48,17 @@ h2, h3 {
 }
 
 .mod {
-  color:orange;
+  color: orange;
   font-size:113%;
 }
 
 p, i, li {
-  font-size:110%;
+  font-size: 110%;
   font-family: "Montserrat";
 }
 
 li, i {
-  color:yellow;
+  color: yellow;
 }
 
 p {
@@ -67,7 +67,7 @@ p {
 
 .header {
   font-family: "Happy Monkey";
-  text-align:center;
+  text-align: center;
 }
 
 .topheader {
@@ -75,7 +75,7 @@ p {
 }
 
 a {
-  color: #7289DA;
+  color: #7289da;
 }
 
 .itemheader {
