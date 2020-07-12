@@ -9,7 +9,7 @@ h1 {
   color: #00aeff;
 }
 
-h2 {
+h2, h3 {
   font-size: 145%;
   font-family: "Happy Monkey";
   color: #4caf50;
