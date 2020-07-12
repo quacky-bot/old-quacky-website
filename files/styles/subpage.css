@@ -9,14 +9,10 @@ h1 {
   color: #00aeff;
 }
 
-h2, h3 {
+h2 {
   font-size: 145%;
   font-family: "Happy Monkey";
   color: #4caf50;
-}
-
-h2 {
-  font-size: 145%;
 }
 
 p, li {
@@ -27,6 +23,12 @@ p, li {
 .listheader {
   color: violet;
 }
+
 a {
+  color: #7289DA;
+}
+
+.h3, h3 {
+  font-family: "Happy Monkey";
   color: #7289DA;
 }
