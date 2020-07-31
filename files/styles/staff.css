@@ -48,6 +48,11 @@ h2, h3 {
 }
 
 .mod {
+  color: #00ff88;
+  font-size: 113%;
+}
+
+.support {
   color: orange;
   font-size: 113%;
 }
