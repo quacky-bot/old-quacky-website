@@ -43,7 +43,7 @@ a {
   font-family: "Montserrat";
 }
 
-.buttondiv {
+.buttondiv, .centertext {
   text-align: center;
 }
 
