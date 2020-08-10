@@ -12,4 +12,4 @@ __We also have many custom features! These include:__
 :star: A `channeladd` Command - Give Someone permission to view a channel.
 :star: A Variety of Voice Channel Management Commands for Mass Voice Channel Kicking, Moving, and Muting.
 **Overall, Quacky Bot is the most powerful Moderation Bot for your Server Moderators :hammer:**
-You can Invite Quacky at: https://quacky.js.org/invite
+Learn More about Quacky: https://quacky.js.org/
