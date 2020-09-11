@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/duckmasteral
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://quacky.js.org
+  * I am duckmasteral (https://keybase.io/duckmasteral) on keybase.
+  * I have a public key ASCXD1AEoVixPmb3EDgYPsqEXxHfvxF_C3f-LLCTFxCiago
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203c8879a90f789d6c1674ccb5ae1982a3c039f4d0f156fb3e455d2d771a0346960a",
+      "host": "keybase.io",
+      "kid": "0120970f5004a158b13e66f71038183eca845f11dfbf117f0b77fe2cb0931710a26a0a",
+      "uid": "76086fcc6567460f04ec737dbaae0219",
+      "username": "duckmasteral"
+    },
+    "merkle_root": {
+      "ctime": 1599839355,
+      "hash": "e5930314a22c29776ab05f6517bf724596d52e46c45ffb4e876d45effcb1c345af663e4ec47fe9912e00f5539ed0980067c0a028863105e1203088af94548543",
+      "hash_meta": "ccb4477ea5c7b9372f7dd3fc3ab2aa568f322f7641c7321ad05471dec3ff8c42",
+      "seqno": 17537088
+    },
+    "service": {
+      "entropy": "u41T8Coivu0l2ErkJ3iAabJ+",
+      "hostname": "quacky.js.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1599839369,
+  "expire_in": 504576000,
+  "prev": "5fff82d605cef81695b910c805c64315f101346219e778b2ca17c3e67d890f0c",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEglw9QBKFYsT5m9xA4GD7KhF8R378Rfwt3/iywkxcQomoKp3BheWxvYWTESpcCEcQgX/+C1gXO+BaVuRDIBcZDFfEBNGIZ53iyyhfD5n2JDwzEIM+JYIvI2Dx75HbvYLlMgRXn4nuQAsKdV47Wgx4gvKXFAgHCo3NpZ8RA3pYZSvrpitKlbXP0afC2zDJrWZh/3ZmIBdvOYKiQHQKBiMPusNqRR/XrTv4oB5eUb6a9PXEgDLqXK9AK4E/qAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKiVA2XLr6j6CLIyepXpKIT1lp5qpmuygXkvS64tU6Uuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/duckmasteral
+
+==================================================================
