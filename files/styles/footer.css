@@ -1,0 +1,42 @@
+.bottom, .bottom2 {
+  position: block;
+  bottom: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: #23272A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Baloo Tamma 2";
+}
+
+.bottom2 {
+  height: 50px;
+  display: none;
+}
+
+.cemoji {
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
+
+@media (max-width: 599px) {
+  .bottom {
+    display: none;
+  }
+  .bottom2 {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .bottom {
+    display: block;
+  }
+  .bottom2 {
+    display: none;
+  }
+}
