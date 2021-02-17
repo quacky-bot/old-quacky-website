@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="files/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="files/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="files/favicon/favicon-16x16.png">
+  <meta name="theme-color" content="#ff9900">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@QuackyBot"/>
+  <meta name="twitter:title" content="Send an Email"/>
+  <meta name="twitter:description" content="Send an email to a user!"/>
+  <!-- Google -->
+  <meta name="description" content="Send an email to a user!">
+  <meta name="robots" content="all">
+  <!-- Discord -->
+  <meta property="og:title" content="Send an Email" >
+  <meta property="og:description" content="Send an email to a user!">
+  <meta property="og:image" itemprop="image" content="https://quacky.xyz/files/avatar.webp">
+  <meta property="og:locale" content="en_US">
+  <!-- Misc extra stuff -->
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send an Email</title>
+</head>
+<body onload="email();" style="background-color: #2c2f33; color: white;">
+  <script>
+    function email() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const email_query = urlParams.get("email")
+      document.getElementById('link').href = 'mailto:' + email_query;
+      document.getElementById('gmail').href = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=' + email_query;
+      if (email_query == null || email_query == '') {
+        document.getElementById('message').innerHTML = 'Error: no email was provided.';
+      }
+      else {
+        document.location.replace("mailto:" + email_query)
+      }
+    }
+  </script>
+  <h1>One second as we redirect you...</h1>
+  <p id="message">If you aren't redirected <a id="link" style="color:#7289DA;">click here :)</a> or <a id="gmail" style="color:#7289DA;">open in a gmail tab.</a></p>
+</body>
+</html>
